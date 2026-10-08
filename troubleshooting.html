@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troubleshooting | Atlantis Corporation Starter Kit</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-title">Atlantis Corporation</a>
+      
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="crm.html">CRM Systems</a></li>
+          <li><a href="starter-kit.html">Starter Kit</a></li>
+          <li><a href="troubleshooting.html" class="active">Troubleshooting</a></li>
+          <li><a href="security.html">Security</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h1>Troubleshooting Scenarios</h1>
+      <p>Quick resolution steps for common technical issues encountered by team members at Atlantis Corporation. Select any scenario below to view the recommended fix.</p>
+
+      <div class="accordion">
+        <button class="accordion-header" type="button" aria-expanded="false">
+          <h3>1. Computer Won't Boot</h3>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Problem:</strong> The power button is pressed, but the machine will not turn on or load the operating system.</p>
+          <p><strong>Fix:</strong></p>
+          <ol>
+            <li>Check that the power cable is firmly connected to both the computer and the wall outlet.</li>
+            <li>Confirm the monitor is powered on and the video cable is plugged in properly.</li>
+            <li>Hold the power button down for 20 seconds to drain residual power, then try turning it on again.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-header" type="button" aria-expanded="false">
+          <h3>2. No Internet or Wi-Fi Connection</h3>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Problem:</strong> The workstation cannot load web pages or connect to internal office networks.</p>
+          <p><strong>Fix:</strong></p>
+          <ol>
+            <li>Ensure the device Wi-Fi switch is turned on or the network cable is clicked in tightly.</li>
+            <li>Disconnect from the network and reconnect to refresh the computer IP address.</li>
+            <li>Restart the computer and the local router to clear network configuration errors.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <button class="accordion-header" type="button" aria-expanded="false">
+          <h3>3. Forgotten Password or Locked Account</h3>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-content">
+          <p><strong>Problem:</strong> The user is locked out after entering the wrong password or forgetting their credentials.</p>
+          <p><strong>Fix:</strong></p>
+          <ol>
+            <li>Verify the employee identity following standard company verification questions.</li>
+            <li>Confirm Caps Lock is turned off and have the user attempt entry one more time.</li>
+            <li>Open the administrator portal to unlock the account and set a temporary password.</li>
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

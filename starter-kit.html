@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starter Kit | Atlantis Corporation</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .anchor-links {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="site-title">Atlantis Corporation</a>
+      
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="crm.html">CRM Systems</a></li>
+          <li><a href="starter-kit.html" class="active">Starter Kit</a></li>
+          <li><a href="troubleshooting.html">Troubleshooting</a></li>
+          <li><a href="security.html">Security</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h1>Starter Kit</h1>
+      <p>This starter kit outlines the foundational equipment, core applications, and network setup required for Atlantis Corporation. Having standard tools in place helps support agents resolve problems efficiently.</p>
+      
+      <div class="anchor-links">
+        <a href="#hardware" class="btn">Hardware</a>
+        <a href="#software" class="btn">Software</a>
+        <a href="#networks" class="btn">Networks</a>
+      </div>
+
+      <div class="card" id="hardware" style="margin-bottom: var(--spacing-md);">
+        <h2>Recommended Hardware</h2>
+        <ul>
+          <li>Business laptops or desktops equipped with at least 16GB of RAM.</li>
+          <li>Dual 24-inch monitors and noise-canceling headsets for customer calls.</li>
+          <li>Technician toolkit and spare display cables for quick workstation repairs.</li>
+        </ul>
+      </div>
+
+      <div class="card" id="software" style="margin-bottom: var(--spacing-md);">
+        <h2>Essential Software</h2>
+        <ul>
+          <li>Windows 11 Pro or macOS for centralized user and device management.</li>
+          <li>Microsoft 365 or Google Workspace for business email and cloud storage.</li>
+          <li>Remote desktop software and a password manager for safe troubleshooting.</li>
+        </ul>
+      </div>
+
+      <div class="card" id="networks">
+        <h2>Office Networking</h2>
+        <ul>
+          <li>Business router with a built-in firewall to protect company resources.</li>
+          <li>Wi-Fi access point configured with an isolated network for visitors.</li>
+          <li>Cat6 ethernet cables for desks running real-time phone and VOIP systems.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
